@@ -1,0 +1,38 @@
+Part 2
+
+--- 1.1.1.1 ping statistics --- (USA)
+28 packets transmitted, 28 received, 0% packet loss, time 27029ms
+rtt min/avg/max/mdev = 22.091/22.991/28.933/1.236 ms
+
+--- 223.5.5.5 ping statistics --- (China)
+19 packets transmitted, 19 received, 0% packet loss, time 18018ms
+rtt min/avg/max/mdev = 223.278/235.897/247.287/5.525 ms
+
+--- 78.7.251.131 ping statistics --- (Italy)
+16 packets transmitted, 16 received, 0% packet loss, time 15003ms
+rtt min/avg/max/mdev = 195.136/195.671/196.270/0.297 ms
+
+Places that are farther away have a higher ping RTT.
+
+Step 4:
+I get back a long HTML message that appears to be an online textbook
+
+ What is the name of the file that is being retrieved in this GET message?
+index.html
+ What version of HTTP is the client running?
+HTTP 1.1
+ What formats of text and images, if any?
+html, javascript, .jpg image
+
+Step 5:
+telnet 1.1.1.1 80
+Trying 1.1.1.1...
+Connected to 1.1.1.1.
+
+telnet 223.5.5.5 80
+Trying 223.5.5.5...
+Connected to 223.5.5.5.
+
+telnet 78.7.251.131 80
+Trying 78.7.251.131...
+telnet: Unable to connect to remote host: Connection refused

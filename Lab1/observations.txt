@@ -1,0 +1,17 @@
+/*Name: Federico Madden
+Date: 4/7/2020
+Title: Lab1 - Steps 6 and 7
+Description: This program records my observations related to Lab 1
+*/
+
+1a. With a higher delay, the order in which the processes output is more consistent. 
+
+6a. 10
+7a. 0.1
+b. 0.9
+c. 0.15
+d. 0.015
+e. 0.2851
+f. 3.87 x 10^-11
+g. 3.57 * 10^-6
+h. 3.509 * 10^-7 
